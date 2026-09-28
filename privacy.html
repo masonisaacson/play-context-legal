@@ -14,7 +14,7 @@
   </header>
   <main id="content">
     <h1>Privacy Policy</h1>
-    <p class="updated">Effective and last updated: September 15, 2026</p>
+    <p class="updated">Effective and last updated: September 28, 2026</p>
     <section>
       <h2>About this policy</h2>
       <p>This policy explains information handled when you use Play Context and its services. It concerns you as an app user; public sports information about teams and athletes is part of the app’s content.</p>
@@ -35,6 +35,11 @@
       <p>RevenueCat receives purchase and subscription information, including transaction identifiers, products, purchase and expiration dates, and renewal or refund status. It associates this information with a generated app-user identifier and uses it to support subscription tracking and reporting. The app uses RevenueCat’s generated anonymous identifier. We do not provide RevenueCat with your name, email address, or a custom Play Context account identifier, and we do not maintain a mapping from that anonymous identifier to your contact details. RevenueCat also receives Apple’s vendor identifier for your device when available, which is different from Apple’s advertising identifier, along with technical information such as app and system versions, locale, and currency.</p>
     </section>
     <section>
+      <h2>App analytics</h2>
+      <p>Play Context sends a small set of onboarding and subscription events to PostHog in its US region. We count which onboarding pages are viewed, when the subscription page appears, when Subscribe is tapped, and the general result of a purchase attempt. Each event includes the app version, build channel, and a generated analytics identifier that joins events from this installation. PostHog receives the IP address carried by each event request to process the request and filter bot traffic. Our project discards raw IP addresses before storing events, and the app disables IP-based location enrichment. We use these counts to see where people leave onboarding and how many reach the subscription page or subscribe.</p>
+      <p>The app does not send PostHog your name, email address, followed teams, game or player identifiers, purchase transaction identifiers, or purchase-error text. It does not record screens or automatically capture taps. Analytics is on when you open the app unless you turn off Share app usage in Settings, which you can open during onboarding or after subscribing. Turning it off does not affect access or price. You can copy your analytics ID in Settings to help us locate earlier events for a privacy request. Disabling collection does not erase events already received by PostHog; contact us to request deletion.</p>
+    </section>
+    <section>
       <h2>Sports content, news, and other services</h2>
       <p>The app uses generic helmet and jersey artwork and does not download team logos or player portraits from third-party image servers. Our backend obtains sports data from CFBD.</p>
       <p>Opening an article takes you to its publisher’s website. That site can process information under its own privacy policy. Apple and RevenueCat also describe their handling of information in their policies, linked below.</p>
@@ -42,7 +47,7 @@
     </section>
     <section>
       <h2>Service-provider protections</h2>
-      <p>RevenueCat and Railway process information for us under their applicable service terms and data-protection commitments. Those commitments address security, confidentiality, and assistance with privacy requests. We use their existing tools and procedures to handle information and requests described in this policy.</p>
+      <p>RevenueCat, Railway, and PostHog process information for us under their applicable service terms and data-protection commitments. Those commitments address security, confidentiality, and assistance with privacy requests. We use their existing tools and procedures to handle information and requests described in this policy.</p>
     </section>
     <section>
       <h2>Permissions and tracking</h2>
@@ -52,7 +57,7 @@
     </section>
     <section>
       <h2>Your choices</h2>
-      <p>You can change followed teams in Settings. Deleting the app removes its local app data from that installation, but does not cancel an Apple subscription or delete records held by Apple, RevenueCat, hosting services, or device backups.</p>
+      <p>You can change followed teams and turn app analytics off in Settings. Deleting the app removes its local app data from that installation, but does not cancel an Apple subscription or delete records held by Apple, RevenueCat, PostHog, hosting services, or device backups.</p>
       <p>Manage subscription renewal in your Apple Account settings. Apple provides controls for its account data and backups. Depending on where you live, you may have rights to access, correct, or delete personal information, subject to applicable exceptions. Contact us using the address below to make a request or ask a question about your information.</p>
       <p>Describe your request and the information or activity it concerns. We may ask for limited information needed to locate relevant records and verify that you are entitled to make the request. An email address alone may not identify an anonymous subscription record. Do not send Apple Account passwords, full payment-card details, or government identification with your initial request.</p>
       <p>We handle requests manually using our records and service providers’ supported tools. We will explain the outcome and any applicable limits, including records we cannot identify or must retain. Deleting subscription records does not cancel your Apple subscription. Continued use, restoring a purchase, or making a new purchase can create records again.</p>
@@ -60,7 +65,7 @@
     <section>
       <h2>How long information is kept</h2>
       <p>Local preferences and caches remain on your device until changed, removed, or replaced by the app or operating system.</p>
-      <p>We keep operational records for as long as needed to deliver the service, troubleshoot problems, and protect its security. We keep support correspondence to resolve your request and provide relevant follow-up. Subscription records are kept as needed to manage access, refunds, disputes, and applicable legal obligations.</p>
+      <p>We keep operational records for as long as needed to deliver the service, troubleshoot problems, and protect its security. We keep support correspondence to resolve your request and provide relevant follow-up. Subscription records are kept as needed to manage access, refunds, disputes, and applicable legal obligations. Analytics events remain in PostHog under our project retention settings until deleted or de-identified; disabling future collection does not erase previously received events.</p>
       <p>When those purposes no longer require personal information we control, we delete or de-identify it, subject to applicable legal, security, and dispute-related exceptions. For information held by service providers, we use their available tools or request their assistance. Provider-controlled logs, backups, and legally required records may remain under the providers’ retention practices; removal from active records does not necessarily erase every backup immediately. Apple maintains its account and transaction records under its own policies and legal requirements.</p>
     </section>
     <section>
@@ -75,6 +80,7 @@
     <section><h2>Related information</h2><ul>
       <li><a href="https://www.apple.com/legal/privacy/">Apple Privacy Policy</a></li>
       <li><a href="https://www.revenuecat.com/privacy/">RevenueCat Privacy Policy</a></li>
+      <li><a href="https://posthog.com/privacy">PostHog Privacy Policy</a></li>
       <li><a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub Privacy Statement</a></li>
     </ul></section>
   </main>
